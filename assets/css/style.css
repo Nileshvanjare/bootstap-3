@@ -1,0 +1,27 @@
+.main{
+    background-color: #000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 22px;
+    
+}
+
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus, 
+ .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: orange;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #000;
+    background-color: orange;
+  transition: all 0.7s ease-in-out;
+}
+
+.navbar-nav>li {
+    float: left;
+    margin: 3px;
+}
